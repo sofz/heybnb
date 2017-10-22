@@ -47,3 +47,9 @@ group :development do
   gem 'spring'
 end
 
+groupe :production do
+  #access prod DB on Heroku
+  gem 'pg'
+  gem 'rails_12factor'
+end
+
